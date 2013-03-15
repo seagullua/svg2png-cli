@@ -1,12 +1,12 @@
 {
     "name": "svg2png-cli",
-    "description": "A SVG to PNG converter, using PhantomJS.",
-    "version": "1.0.0",
-    "author": "Domenic Denicola <domenic@domenicdenicola.com> (http://domenicdenicola.com)",
+    "description": "A CLI wrapper for domenic/svg2png.",
+    "version": "1.0.1",
+    "author": "Domenic Denicola (http://github.com/domenic), Luca Corbo (https://github.com/lucor)",
     "license": "WTFPL",
     "repository": {
         "type": "git",
-        "url": "git://github.com/domenic/svg2png.git"
+        "url": "git://github.com/skyzyx/svg2png-cli.git"
     },
     "bugs": {
         "url": "http://github.com/domenic/svg2png/issues"
