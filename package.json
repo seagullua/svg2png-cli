@@ -1,5 +1,5 @@
 {
-    "name": "svg2png",
+    "name": "svg2png-cli",
     "description": "A SVG to PNG converter, using PhantomJS.",
     "version": "1.0.0",
     "author": "Domenic Denicola <domenic@domenicdenicola.com> (http://domenicdenicola.com)",
