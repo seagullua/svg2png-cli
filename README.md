@@ -1,33 +1,22 @@
-# SVG-to-PNG Converter Using PhantomJS
+# svg2png-cli
 
-You have a SVG file. For whatever reason, you need a PNG. **svg2png** can help.
+**svg2png-cli** is a simple CLI wrapper for [svg2png](https://github.com/domenic/svg2png)
+by Domenic Denicola. Forked from earlier work on the CLI wrapper by
+[Luca Corbo](http://lucor.github.com).
 
-```js
-svg2png("source.svg", "dest.png", function (err) {
-    // PNGs for everyone!
-});
-```
+Leverages [node-pngcrush](https://github.com/papandreou/node-pngcrush) and
+[node-optipng](https://github.com/papandreou/node-optipng) to optimize the PNGs
+that are created.
 
-Maybe you need to scale the image while converting? We can do that too:
 
-```js
-svg2png("source.svg", "dest.png", 1.2, function (err) {
-    // 1.2×-sized PNGs for everyone!
-});
-```
+## Installation
+It's built on [Node.js](http://nodejs.org) and can be found in `npm`.
 
-The scale factor is relative to the SVG's `viewbox` or `width`/`height` attributes, for the record.
+	# Local installation
+	npm install svg2png-cli
 
-To convert all svg files in a specified directory you may also use the CLI
+	# Global installation
+	sudo npm install -g svg2png-cli
 
-``` 
-svg2png directory
-```
 
-svg2png is built on the latest in [PhantomJS][] technology to render your SVGs using a headless WebKit instance. I have
-found this to produce much more accurate renderings than other solutions like GraphicsMagick or Inkscape. Plus, it's
-easy to install cross-platform due to the excellent [phantomjs][package] npm package—you don't even need to have
-PhantomJS in your `PATH`.
-
-[PhantomJS]: http://phantomjs.org/
-[package]: https://npmjs.org/package/phantomjs
+## Usage
