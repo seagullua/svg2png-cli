@@ -1,7 +1,7 @@
 {
     "name": "svg2png-cli",
     "description": "A CLI wrapper for domenic/svg2png.",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "author": "Ryan Parman (http://github.com/skyzyx), based on prior work by Domenic Denicola (http://github.com/domenic) and Luca Corbo (https://github.com/lucor).",
     "license": "WTFPL",
     "repository": {
