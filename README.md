@@ -6,7 +6,7 @@ by Domenic Denicola. Forked from earlier work on the CLI wrapper by
 
 
 ## Installation
-It's built on [Node.js](http://nodejs.org) and can be found in `npm`.
+It's built on [Node.js](http://nodejs.org) and can be found in [npm](https://npmjs.org/package/svg2png-cli).
 
 	# Local installation
 	npm install svg2png-cli
