@@ -16,7 +16,8 @@ It's built on [Node.js](http://nodejs.org) and can be found in [npm](https://npm
 
 
 ## Usage
-Calling `svg2png` with no parameters, or with `-h` or `--help`, you can see the help screen.
+Calling `svg2png` with no parameters, or with `-h` or `--help`, you can see the help screen. You will certainly need to
+crush the resulting PNGs with a tool like [ImageOptim](http://imageoptim.com).
 
 	usage: svg2png input[.svg] [options]
 
