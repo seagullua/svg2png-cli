@@ -21,9 +21,7 @@
     },
     "dependencies": {
         "phantomjs": ">= 0.2.0",
-        "optimist": "0.3.x",
-        "optipng": "*",
-        "pngcrush": "*"
+        "optimist": "0.3.x"
     },
     "devDependencies": {
         "coffee-script": ">= 1.3.3",
